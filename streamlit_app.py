@@ -48,7 +48,7 @@ bus_company = st.selectbox("Bus Company", ['L & M BUS CORP', 'BORO TRANSIT INC',
         'LEESEL TRANSPORTATION CORP', 'QUALITY TRANSPORTATION CORP'
 ])
 
-route_number_clean = st.selectbox("Route Number",['3002A', 'K064', 'X184', 'R1218', 'L343', 'Q370', 'X028', 'P863',
+route_number_clean = st.text_input("Route Number",['3002A', 'K064', 'X184', 'R1218', 'L343', 'Q370', 'X028', 'P863',
        'Q742', 'R1203', 'M1084', 'M859', 'Q664', 'P102', 'K424', '3406A',
        'PS200', 'R349', 'L141', 'R1030', 'R1303', 'Q2901', 'M154', 'L535',
        'X2359', 'Q818', 'X049', 'M136', 'Q337', 'R1043', 'P584', 'P783',
