@@ -54,7 +54,7 @@ route_number_clean = st.selectbox("Route Number",['3002A', 'K064', 'X184', 'R121
        'X2359', 'Q818', 'X049', 'M136', 'Q337', 'R1043', 'P584', 'P783',
        'L400', 'R007', 'X560', 'R1121', 'M124', 'M9045', 'M626', 'X2318',
        'X112', 'P671', 'R1324', 'R1318', 'R1078', 'K1436', 'M798', 'P677',
-       'K032', 'K972'])
+       'K032', 'K972'], placeholder="Type Route")
 
 contract_notified_schools = st.checkbox("Contractor Notified Schools?")
 contract_notified_parents = st.checkbox("Contractor Notified Parents?")
