@@ -110,7 +110,7 @@ input_df = pd.DataFrame([input_dict])
 input_encoded = encoder.transform(input_df)
 input_scaled = scaler.transform(input_encoded)
 proba = model.predict_proba(input_scaled)[0][1]  # Probability of Breakdown
-pred = int(proba >= threshold)
+pred = int(proba)
 
 label = "🚨 Breakdown" if pred == 1 else "⏱️ Running Late"
 confidence = proba if pred == 1 else 1 - proba
