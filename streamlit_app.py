@@ -8,7 +8,6 @@ import joblib
 model = joblib.load('xgb_model.pkl')
 encoder = joblib.load('target_encoder.pkl')
 scaler = joblib.load('scaler.pkl')
-threshold = joblib.load('optimal_threshold.pkl')
 
 st.title("🚌 Predict School Bus Delay and Breakdown")
 
