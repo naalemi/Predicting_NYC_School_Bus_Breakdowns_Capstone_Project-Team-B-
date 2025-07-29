@@ -73,7 +73,7 @@ route_options = [
 ]
 
 # Create searchable dropdown
-route_choice = st.selectbox("Route Number (type to search)", route_options)
+route_choice = st.selectbox("Route Number (type to search or select)", route_options)
 
 # Fallback to manual input
 if route_choice == "Other":
