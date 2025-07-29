@@ -48,13 +48,21 @@ bus_company = st.selectbox("Bus Company", ['L & M BUS CORP', 'BORO TRANSIT INC',
         'LEESEL TRANSPORTATION CORP', 'QUALITY TRANSPORTATION CORP'
 ])
 
-route_number_clean = st.text_input("Route Number",['3002A', 'K064', 'X184', 'R1218', 'L343', 'Q370', 'X028', 'P863',
+# === Route number logic ===
+route_options = ['3002A', 'K064', 'X184', 'R1218', 'L343', 'Q370', 'X028', 'P863',
        'Q742', 'R1203', 'M1084', 'M859', 'Q664', 'P102', 'K424', '3406A',
        'PS200', 'R349', 'L141', 'R1030', 'R1303', 'Q2901', 'M154', 'L535',
        'X2359', 'Q818', 'X049', 'M136', 'Q337', 'R1043', 'P584', 'P783',
        'L400', 'R007', 'X560', 'R1121', 'M124', 'M9045', 'M626', 'X2318',
        'X112', 'P671', 'R1324', 'R1318', 'R1078', 'K1436', 'M798', 'P677',
-       'K032', 'K972'], placeholder="Type Route")
+       'K032', 'K972', 'Other']
+
+route_choice = st.selectbox("Route Number", route_options)
+
+if route_choice == "Other":
+    route_number_clean = st.text_input("Enter Route Number Manually")
+else:
+    route_number_clean = route_choice
 
 contract_notified_schools = st.checkbox("Contractor Notified Schools?")
 contract_notified_parents = st.checkbox("Contractor Notified Parents?")
