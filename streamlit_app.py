@@ -9,7 +9,7 @@ model = joblib.load('xgb_model.pkl')
 encoder = joblib.load('target_encoder.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("🚌 Predict School Bus Delay and Breakdown")
+st.title("Predict School Bus Delay and Breakdown")
 
 st.markdown("Enter the following information:")
 
@@ -113,10 +113,10 @@ proba = model.predict_proba(input_scaled)[0][1]  # Probability of Breakdown
 
 # Determine which class has higher probability
 if proba >= 0.5:
-    label = "🚨 Breakdown"
+    label =  "Breakdown"
     confidence = proba
 else:
-    label = "⏱️ Running Late"
+    label = "Running Late"
     confidence = 1 - proba
 
 # === Display result ===
