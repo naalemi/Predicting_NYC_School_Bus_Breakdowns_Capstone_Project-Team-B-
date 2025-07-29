@@ -110,10 +110,14 @@ input_df = pd.DataFrame([input_dict])
 input_encoded = encoder.transform(input_df)
 input_scaled = scaler.transform(input_encoded)
 proba = model.predict_proba(input_scaled)[0][1]  # Probability of Breakdown
-pred = int(proba)
 
-label = "🚨 Breakdown" if pred == 1 else "⏱️ Running Late"
-confidence = proba if pred == 1 else 1 - proba
+# Determine which class has higher probability
+if proba >= 0.5:
+    label = "🚨 Breakdown"
+    confidence = proba
+else:
+    label = "⏱️ Running Late"
+    confidence = 1 - proba
 
 # === Display result ===
 st.markdown(f"### Prediction: **{label}**")
