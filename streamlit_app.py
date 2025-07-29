@@ -10,7 +10,7 @@ encoder = joblib.load('target_encoder.pkl')
 scaler = joblib.load('scaler.pkl')
 threshold = joblib.load('optimal_threshold.pkl')
 
-st.title("🚌 Predict School Bus Delay & Breakdown")
+st.title("🚌 Predict School Bus Delay and Breakdown")
 
 st.markdown("Enter the following information:")
 
