@@ -69,11 +69,6 @@ route_number_clean = st.selectbox("Route Number",['3002A', 'K064', 'X184', 'R121
        'R9043', 'R9117', 'N563', 'K981', 'X2034', '2', 'B0204A', 'R9130',
        'R9175', 'R9219', 'R1015', 'P704', 'L747', 'K109', 'Q954'])
 
-if route_choice == "Other":
-    route_number_clean = st.text_input("Enter Route Number Manually")
-else:
-    route_number_clean = route_choice
-
 contract_notified_schools = st.checkbox("Contractor Notified Schools?")
 contract_notified_parents = st.checkbox("Contractor Notified Parents?")
 alerted_opt = st.checkbox("Alerted OPT?")
