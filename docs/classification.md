@@ -16,6 +16,6 @@ Predict whether a school bus incident will be a **breakdown** or **running late*
 - **Breakdown:** Precision ≈ 73%, Recall ≈ 82%
 
 **Feature Importance:**  
-![Classification Features](Classification_Model_Top_Features.png)  
+![Classification Features](img/Classification_Model_Top_Features.png)  
 
 XGBoost outperformed alternatives like Balanced Random Forest, especially for recall on the Breakdown class.
