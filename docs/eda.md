@@ -13,11 +13,11 @@ We standardized:
 ## 📊 Insights
 
 **Top Companies by Incident Count**  
-![Top Companies](Top_Companies_by_Incident.png)  
+![Top Companies](img/Top_Companies_by_Incident.png)  
 Some companies like Pride and Pioneer have much higher incident counts — possibly due to more routes or maintenance issues.
 
 **Distribution of Delay Minutes**  
-![Delay Minutes](Delay_Minute_Distribution.png)  
+![Delay Minutes](img/Delay_Minute_Distribution.png)  
 Most delays last **16–30 minutes**, with many long delays (61–90 minutes).
 
 **Key Findings:**
