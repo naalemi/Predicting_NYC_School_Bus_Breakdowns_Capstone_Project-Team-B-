@@ -14,6 +14,6 @@ Predict how many minutes a bus will be delayed.
 - Predictions are generally within 10 minutes of actual delay.
 
 **Feature Importance:**  
-![Regression Features](Regression_Model_Top_Features.png)
+![Regression Features](img/Regression_Model_Top_Features.png)
 
 **Top Predictor:** Bus_Company_Name
