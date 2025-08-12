@@ -44,11 +44,6 @@ Some companies, such as Pride and Pioneer, show disproportionately high incident
 ![Delay Minutes](img/Delay_Minute_Distribution.png)  
 Most delays last **16–30 minutes**, with a surprising number of long delays (61–90 minutes).
 
-**Key Observations:**
-- **Queens** has the highest average delay (49.6 min).
-- **Heavy Traffic** is the #1 cause, followed by mechanical problems.
-- Incidents peak in **morning (5–7 AM)** and **afternoon (1–3 PM)**.
-
 ---
 
 ## 🤖 Modeling
