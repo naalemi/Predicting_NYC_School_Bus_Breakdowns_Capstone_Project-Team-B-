@@ -1,6 +1,7 @@
 # 🚍 Predicting NYC School Bus Breakdowns & Delays
 
-*By Team B — Nasim Aalemi, Shobha Panthi, James Gilmore*  
+*By Team B  — Nasim Aalemi, Shobha Panthi, James Gilmore*  
+*DATA606 Capstone Project*
 [📂 GitHub Repository](https://github.com/naalemi/Predicting_NYC_School_Bus_Breakdowns_Capstone_Project-Team-B-)  
 [📊 Dataset – NYC Open Data](https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data)  
 
@@ -37,17 +38,12 @@ The raw dataset was messy and inconsistent. We cleaned and standardized:
 ## 🔍 Exploratory Data Analysis
 
 **Top Companies by Incident Count**  
-![Top Companies](Top_Companies_by_Incident.png)  
+![Top Companies](img/Top_Companies_by_Incident.png)  
 Some companies, such as Pride and Pioneer, show disproportionately high incidents — possibly due to operating more routes or maintenance issues.
 
 **Distribution of Delay Minutes**  
-![Delay Minutes](Delay_Minute_Distribution.png)  
+![Delay Minutes](img/Delay_Minute_Distribution.png)  
 Most delays last **16–30 minutes**, with a surprising number of long delays (61–90 minutes).
-
-**Key Observations:**
-- **Queens** has the highest average delay (49.6 min).
-- **Heavy Traffic** is the #1 cause, followed by mechanical problems.
-- Incidents peak in **morning (5–7 AM)** and **afternoon (1–3 PM)**.
 
 ---
 
@@ -60,7 +56,7 @@ Most delays last **16–30 minutes**, with a surprising number of long delays (6
   - RMSE: ~9.65 minutes
   - R²: ~82%
 - **Top Features:**
-  ![Regression Features](Regression_Model_Top_Features.png)
+  ![Regression Features](img/Regression_Model_Top_Features.png)
 
 ---
 
@@ -73,7 +69,7 @@ Most delays last **16–30 minutes**, with a surprising number of long delays (6
   - Running Late: Precision & Recall ≈ 99%
   - Breakdown: Precision ≈ 73%, Recall ≈ 82%
 - **Top Features:**
-  ![Classification Features](Classification_Model_Top_Features.png)
+  ![Classification Features](img/Classification_Model_Top_Features.png)
 
 ---
 
@@ -81,8 +77,10 @@ Most delays last **16–30 minutes**, with a surprising number of long delays (6
 
 - **Streamlit App**  
   Uploads a trained model, target encoder, and scaler to let users input route, borough, reason, and more — returning instant predictions with confidence.
+  [✨Streamlit Link](https://7u2w29zopa9qr4jjbkj4vd.streamlit.app/#predict-school-bus-delay-type)  
 - **Power BI Dashboard**  
   Provides borough-level insights, delay cause breakdowns, and company performance analysis.
+  [📊Power BI Link](https://app.powerbi.com/groups/me/reports/ecd5ff49-a239-49b4-ada7-5ba5be3646fb/bf34930fdbc07cdd3778?ctid=e9b87214-8e8f-4ad0-90ec-9d5c56c94931&experience=power-bi)  
 
 ---
 
@@ -100,4 +98,5 @@ Better insights → better planning → safer, more reliable rides for NYC stude
 
 ---
 
-**Team B – Predicting School Bus Breakdowns and Delays in NYC**
+**Team B – Predicting School Bus Breakdowns and Delays in NYC** 
+*DATA606 Capstone Project*
