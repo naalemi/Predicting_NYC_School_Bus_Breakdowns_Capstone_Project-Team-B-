@@ -2,6 +2,7 @@
 
 *By Team B  — Nasim Aalemi, Shobha Panthi, James Gilmore*  
 *DATA606 Capstone Project*
+
 [📂 GitHub Repository](https://github.com/naalemi/Predicting_NYC_School_Bus_Breakdowns_Capstone_Project-Team-B-)  
 [📊 Dataset – NYC Open Data](https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data)  
 
