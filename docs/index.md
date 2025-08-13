@@ -1,6 +1,8 @@
 # 🚍 Predicting NYC School Bus Breakdowns & Delays
 
 *By Team B — Nasim Aalemi, Shobha Panthi, James Gilmore*  
+*DATA606 Capstone Project*
+
 [📂 GitHub Repository](https://github.com/naalemi/Predicting_NYC_School_Bus_Breakdowns_Capstone_Project-Team-B-)  
 [📊 Dataset – NYC Open Data](https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data)  
 
@@ -96,5 +98,7 @@ This work transforms raw transportation logs into **actionable intelligence** fo
 Better insights → better planning → safer, more reliable rides for NYC students.
 
 ---
+
+*DATA606 Capstone Project*
 
 **Team B – Predicting School Bus Breakdowns and Delays in NYC** 
