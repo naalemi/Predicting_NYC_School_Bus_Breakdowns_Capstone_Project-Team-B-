@@ -78,7 +78,7 @@ Most delays last **16–30 minutes**, with a surprising number of long delays (6
 
 - **Streamlit App**  
   Uploads a trained model, target encoder, and scaler to let users input route, borough, reason, and more — returning instant predictions with confidence.
-  [✨Streamlit Link](https://7u2w29zopa9qr4jjbkj4vd.streamlit.app/#predict-school-bus-delay-type)  
+  [✨Streamlit Link](https://teambpredictingnycschoolbusbreakdownsanddelays-6kw6cesf2uvu9xa.streamlit.app/)  
 - **Power BI Dashboard**  
   Provides borough-level insights, delay cause breakdowns, and company performance analysis.
   [📊Power BI Link](https://app.powerbi.com/groups/me/reports/ecd5ff49-a239-49b4-ada7-5ba5be3646fb/bf34930fdbc07cdd3778?ctid=e9b87214-8e8f-4ad0-90ec-9d5c56c94931&experience=power-bi)  
