@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-Every school day, thousands of NYC students depend on yellow school buses to arrive safely and on time. But breakdowns and delays happen — sometimes frequently — disrupting schedules and impacting learning.
+Every school day, thousands of NYC students depend on yellow school buses to arrive safely and on time. But breakdowns and delays happen, sometimes frequently, disrupting schedules and impacting learning.
 
 In this project, we analyzed **228,000+ incident records (2022–2025)** from NYC Open Data to:
 - Identify patterns behind delays and breakdowns.
@@ -83,10 +83,10 @@ Most delays last **16–30 minutes**, with a surprising number of long delays (6
   Provides borough-level insights, delay cause breakdowns, and company performance analysis.
   [📊Power BI Link](https://app.powerbi.com/groups/me/reports/ecd5ff49-a239-49b4-ada7-5ba5be3646fb/bf34930fdbc07cdd3778?ctid=e9b87214-8e8f-4ad0-90ec-9d5c56c94931&experience=power-bi)
 
-  - **Screenshot Power Bi Dasbhoard:**
+  - **Screenshot of Power Bi Dasbhoard:**
   ![Screenshot Power Bi Dasbhoard](img/Power_Bi_Dashboard_Screenshot.jpg)
 
-- Please note that a .pbix file of the dashboard is stored on our Github Repository.
+- Please note that a .pbix file of the dashboard is stored on our Github repository.
 
 ---
 
